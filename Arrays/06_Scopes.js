@@ -39,7 +39,7 @@ if(true){
 console.log(addone(5))//return any function then log this function
 
 function addone(num){
-    return num + 1
+    return num + 1  
 }
 
 // addTwo(5)//if you are log then print in addTwo() function
