@@ -16,3 +16,24 @@ coding.forEach(printItem);
 
 // using forEach with index
 coding.forEach((item,i)=> console.log(item, "is at index", i));
+
+
+// Array function in object
+const myCoding = [
+    {
+        languageName: "javascript",
+        languageFileName: "js"
+    },
+    {
+        languageName: "java",
+        languageFileName: "java"
+    },
+    {
+        languageName: "python",
+        languageFileName: "py"
+    },
+]
+myCoding.forEach((item)=>{
+    console.log(item.languageName,"language", item.languageFileName, "file");
+    
+})
